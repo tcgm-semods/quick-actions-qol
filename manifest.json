@@ -1,0 +1,21 @@
+{
+    "schema": 1,
+    "format": "star-empire-mod",
+    "mod_id": "quick-actions-qol",
+    "name": "Quick Actions QoL",
+    "version": "0.1.0",
+    "author": "wkthedev",
+    "description": "Makes the Quick Actions hotbar panel draggable and adds a toggleable auto-launch for fighters while in combat.",
+    "loader_api": 2,
+    "entrypoint": "quick_actions_qol.main:apply",
+    "files": [
+        "mod/quick_actions_qol/README.md",
+        "mod/quick_actions_qol/icons/zap_off.png",
+        "mod/quick_actions_qol/icons/zap_on.png",
+        "mod/quick_actions_qol/main.py"
+    ],
+    "dependencies": [],
+    "conflicts": [],
+    "load_after": [],
+    "permissions": []
+}
